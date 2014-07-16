@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Calc Cost In goats</title>
+</head>
+<body>
+  <div class='container'>
+    <div class='jumbotron'>
+
+    </div>
+
+    <form>
+      <div class="form-group">
+        <input type="text" id="fromZip" placeholder="From Zip">
+      </div>
+      <div class="form-group">
+        <input type="text" id="toZip" placeholder="To Zip">
+      </div>
+      <span id="add-package" class="btn btn-primary">Add Package</span>
+      <div id="new-packages">
+        <div class="new-package">
+          <div class="form-group">
+            <input type="text" class="form-control weight" placeholder="Weight">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control dim1" placeholder="Length">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control dim2" placeholder="Height">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control dim3" placeholder="Width">
+          </div>
+        </div>
+      </div>
+        <button type= "submit" class="btn btn-primary">Get Quote!</button>
+    </form>
+
+    <span id="quote"></span>
+
+  </div>
+
+</body>
+</html>
